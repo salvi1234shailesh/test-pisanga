@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^pisanga\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.pisanga\.com$
+RewriteRule ^/?$ "http\:\/\/pisanga\.com\/\index.php" [R=301,L]
