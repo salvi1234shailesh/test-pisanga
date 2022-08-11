@@ -1,0 +1,157 @@
+[12-Aug-2021 10:29:20 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/index.php on line 3
+[12-Aug-2021 10:29:20 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/index.php on line 3
+[12-Aug-2021 10:29:34 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/index.php on line 3
+[12-Aug-2021 10:29:34 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/index.php on line 3
+[12-Aug-2021 10:29:34 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/index.php on line 11
+[12-Aug-2021 10:29:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/index.php on line 11
+[12-Aug-2021 10:31:38 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php on line 7
+[12-Aug-2021 10:31:38 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php on line 7
+[12-Aug-2021 10:31:38 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php on line 69
+[12-Aug-2021 10:31:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php on line 69
+[12-Aug-2021 10:31:40 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 7
+[12-Aug-2021 10:31:40 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 7
+[12-Aug-2021 10:31:40 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 62
+[12-Aug-2021 10:31:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 62
+[12-Aug-2021 10:31:48 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php on line 7
+[12-Aug-2021 10:31:48 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php on line 7
+[12-Aug-2021 10:31:48 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php on line 69
+[12-Aug-2021 10:31:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php on line 69
+[12-Aug-2021 10:31:50 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 7
+[12-Aug-2021 10:31:50 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 7
+[12-Aug-2021 10:31:50 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 62
+[12-Aug-2021 10:31:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 62
+[12-Aug-2021 10:35:34 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 7
+[12-Aug-2021 10:35:34 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 7
+[12-Aug-2021 10:35:34 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 62
+[12-Aug-2021 10:35:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 62
+[12-Aug-2021 10:35:37 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php on line 7
+[12-Aug-2021 10:35:37 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php on line 7
+[12-Aug-2021 10:35:37 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php on line 69
+[12-Aug-2021 10:35:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php on line 69
+[12-Aug-2021 10:35:40 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 7
+[12-Aug-2021 10:35:40 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 7
+[12-Aug-2021 10:35:40 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 62
+[12-Aug-2021 10:35:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 62
+[12-Aug-2021 10:35:42 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/products.php on line 7
+[12-Aug-2021 10:35:42 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/products.php on line 7
+[12-Aug-2021 10:35:42 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/products.php on line 72
+[12-Aug-2021 10:35:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/products.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/products.php on line 72
+[12-Aug-2021 10:35:44 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 7
+[12-Aug-2021 10:35:44 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 7
+[12-Aug-2021 10:35:44 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 62
+[12-Aug-2021 10:35:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 62
+[12-Aug-2021 10:35:45 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php on line 7
+[12-Aug-2021 10:35:45 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php on line 7
+[12-Aug-2021 10:35:45 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php on line 69
+[12-Aug-2021 10:35:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/categories.php on line 69
+[12-Aug-2021 10:36:26 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 7
+[12-Aug-2021 10:36:26 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 7
+[12-Aug-2021 10:36:26 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 62
+[12-Aug-2021 10:36:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-cat.php on line 62
+[12-Aug-2021 10:37:28 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ins_cat.php on line 7
+[12-Aug-2021 10:37:28 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ins_cat.php on line 7
+[12-Aug-2021 10:37:28 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ins_cat.php on line 12
+[12-Aug-2021 10:37:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ins_cat.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ins_cat.php on line 12
+[12-Aug-2021 10:38:15 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/products.php on line 7
+[12-Aug-2021 10:38:15 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/products.php on line 7
+[12-Aug-2021 10:38:15 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/products.php on line 72
+[12-Aug-2021 10:38:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/products.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/products.php on line 72
+[12-Aug-2021 10:38:43 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-product.php on line 7
+[12-Aug-2021 10:38:43 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-product.php on line 7
+[12-Aug-2021 10:38:43 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-product.php on line 62
+[12-Aug-2021 10:38:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-product.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/add-product.php on line 62
+[12-Aug-2021 10:44:07 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ratting.php on line 7
+[12-Aug-2021 10:44:07 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ratting.php on line 7
+[12-Aug-2021 10:44:07 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ratting.php on line 72
+[12-Aug-2021 10:44:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ratting.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ratting.php on line 72
+[12-Aug-2021 10:44:10 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/order.php on line 7
+[12-Aug-2021 10:44:10 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/order.php on line 7
+[12-Aug-2021 10:44:10 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/order.php on line 74
+[12-Aug-2021 10:44:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/order.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/order.php on line 74
+[12-Aug-2021 10:44:13 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ratting.php on line 7
+[12-Aug-2021 10:44:13 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ratting.php on line 7
+[12-Aug-2021 10:44:13 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ratting.php on line 72
+[12-Aug-2021 10:44:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ratting.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ratting.php on line 72
+[12-Aug-2021 10:51:43 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ins_product.php on line 7
+[12-Aug-2021 10:51:43 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ins_product.php on line 7
+[12-Aug-2021 10:51:43 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ins_product.php on line 19
+[12-Aug-2021 10:51:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ins_product.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ins_product.php on line 19
+[12-Aug-2021 11:06:08 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ratting.php on line 7
+[12-Aug-2021 11:06:08 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ratting.php on line 7
+[12-Aug-2021 11:06:08 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ratting.php on line 72
+[12-Aug-2021 11:06:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ratting.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/ratting.php on line 72
+[12-Aug-2021 11:06:55 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/order.php on line 7
+[12-Aug-2021 11:06:55 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/order.php on line 7
+[12-Aug-2021 11:06:55 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/order.php on line 74
+[12-Aug-2021 11:06:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/order.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/order.php on line 74
+[12-Aug-2021 11:07:59 UTC] PHP Warning:  include(../inc/db.php): failed to open stream: No such file or directory in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/bill.php on line 7
+[12-Aug-2021 11:07:59 UTC] PHP Warning:  include(): Failed opening '../inc/db.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/bill.php on line 7
+[12-Aug-2021 11:07:59 UTC] PHP Notice:  Undefined variable: con in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/bill.php on line 22
+[12-Aug-2021 11:07:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/bill.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/bill.php on line 22
+[13-Aug-2021 09:46:52 UTC] PHP Notice:  Undefined index: un in /home/wgvbmv9w5t61/public_html/pisanga.com/shop/admin/admin_inc/top.php on line 50

@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Pisanga</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	
+  
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+  
+   <!-- CSS -->
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<style>
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero1 {
+  width: 100%;
+     height: 80vh;
+  background-color: rgba(14, 11, 10, 0.8);
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+}
+
+#hero1 .carousel-item {
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#hero1 .container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero1 .carousel-content {
+	 background: rgba(1, 3, 100, 0.8);
+	  padding: 20px;
+	  color: #fff;
+	  -webkit-animation-duration: .5s;
+	  animation-duration: .3s;
+	  border-top: 5px solid rgba(1, 3, 111, 0.8);  /* border */
+		  width: 60%;
+    
+   margin-bottom: 76px;
+    margin-left: 441px;
+
+}
+
+#hero1 .carousel-content h2 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#hero1 .btn-get-started {
+  font-family: "Muli", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #f03c02;
+}
+
+#hero1 .btn-get-started:hover {
+  background: #f03c02;
+  color: #fff;
+  text-decoration: none;
+}
+
+#hero1 .carousel-inner .carousel-item {
+  transition-property: opacity;
+}
+
+#hero1 .carousel-inner .carousel-item,
+#hero1 .carousel-inner .active.carousel-item-left,
+#hero1 .carousel-inner .active.carousel-item-right {
+  opacity: 0;
+}
+
+#hero1 .carousel-inner .active,
+#hero1 .carousel-inner .carousel-item-next.carousel-item-left,
+#hero1 .carousel-inner .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#hero1 .carousel-inner .carousel-item-next,
+#hero1 .carousel-inner .carousel-item-prev,
+#hero1 .carousel-inner .active.carousel-item-left,
+#hero1 .carousel-inner .active.carousel-item-right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+
+#hero1 .carousel-control-prev, #hero1 .carousel-control-next {
+  width: 10%;
+}
+
+#hero1 .carousel-control-next-icon, #hero1 .carousel-control-prev-icon {
+  background: none;
+  font-size: 48px;
+  line-height: 1;
+  width: auto;
+  height: auto;
+}
+
+#hero1 .carousel-indicators li {
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+<!-- #hero1 { -->
+    <!-- height: calc(55vh - 72px); -->
+<!-- } -->
+  #hero1 .carousel-content {
+    width: 60%;
+  }
+  #hero1 .carousel-control-prev, #hero .carousel-control-next {
+    width: 5%;
+  }
+}
+
+@media (max-width: 992px) {
+  #hero1 {
+    height: calc(100vh - 72px);
+  }
+  #hero1 .carousel-item {
+    height: calc(100vh - 72px);
+  }
+}
+
+@media (max-width: 768px) {
+#hero1 {
+    height: calc(55vh - 72px);
+}
+  #hero1 .carousel-content {
+    margin: 0 40px 60px 40px;
+  }
+  #hero1 .carousel-content h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  #hero1 .carousel-content p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 414px){
+#hero1 {
+    height: calc(70vh - 72px);
+}
+#hero1 .carousel-content {
+    margin: 0 40px 60px 40px;
+    width: 100%;
+}
+}
+@media (max-width: 411px){
+#hero1 {
+    height: calc(69vh - 72px);
+}
+#hero1 .carousel-content {
+    margin: 0 40px 60px 40px;
+    width: 100%;
+    margin-bottom: 87px;
+}
+}
+@media (max-width: 375px){
+#hero1 {
+    height: calc(70vh - 72px);
+}
+}
+
+
+
+</style>  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+	<header id="header" class="fixed-top d-flex align-items-center">
+		<div class="container d-flex align-items-center">
+		
+			<div class="logo mr-auto">
+				<h1 class="text-light"><a href="index.html"><span>PISANGA</span></a></h1>
+				<!-- Uncomment below if you prefer to use an image logo -->
+				<!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+			</div>
+
+			<nav class="nav-menu d-none d-lg-block">
+				<ul>
+					<li class="active"><a href="#header">Home</a></li>
+					<li><a href="#details">About</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#portfolio">Gallery</a></li>
+					<li><a href="#team">Team</a></li>
+					<li class="drop-down"><a href="">Products</a>
+						<ul>
+						  <li><a href="#details2">Conveyor</a></li>
+						  <li><a href="#details1">WORKSTATION</a></li>
+						   <li><a href="#hero1">Aluminium Profiles</a></li>
+						</ul>
+					</li>
+				  <li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav><!-- .nav-menu -->
+		</div>
+	</header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+	<section id="hero">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+					<div data-aos="zoom-out">
+						<h1> <span>PISANGA</span></h1>
+						<h2 style="font-size:15px;">ALUMINIUM EXTRUSIONS | INDUSTRIAL WORSTATIONS | CONVEYOR SYSTEM</h2>
+						<div class="text-center text-lg-left">
+						  <a href="#details" class="btn-get-started scrollto">Get Started</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+				  <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div class="hero-waves">
+			<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="wave">
+				<defs></defs>
+				<path id="wave1" d=""/>
+			</svg>
+			<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="wave">
+				<defs></defs>
+				<path id="wave2" d="" />
+			</svg>
+		</div>
+	</section><!-- End Hero -->
+
+	<main id="main">
+		<section id="details" class="details">
+			<div class="container">
+				<center><h3>ABOUT US</h3></center>
+				<div class="row content">
+					<div class="col-md-5" data-aos="fade-right">
+						<img src="assets/img/IMG_2227.JPG" class="img-fluid" alt="">
+					</div>
+					<div class="col-md-7 pt-4" data-aos="fade-up">
+						<p>Pisanga as an organisation has a luxury that it is run by the energy of youths.
+							Their knowledge, creativity, dedication and liberal minds are the building block of our
+						company.</p>
+						<p>We at Pisanga build products of aluminium extrusions that have a good aesthetic design and
+						strong manufacturing. Products like Industrial Workstations and Conveyor. Assembly System
+						are the primary products. We also supply varied aluminium extrusions and their connecting
+						accessories.
+						</p>
+						<p>
+						Best client service and good relation are all that we achieve with our clients.
+							We are driven by a basic fundamental value, that whatever we cre-ate it should be ’Strong and
+							Beautiful ’ as it is true for our product it is true with our relations.
+						</p>
+						<h3>Strong And Beautiful</h3>
+						<p class="font-italic">
+							At Pisanga we aspire to develop products of aluminium
+							extrusions that have the strength and beauty as their
+							essential attributes. 
+						</p>
+				    </div>
+				</div>
+			</div>
+		</section>
+		<br>
+		<br>
+		<br>
+	<!-- ======= Hero1 Section ======= -->
+  <section id="hero1">
+		<div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+			<div class="carousel-inner" role="listbox">
+			<!-- Slide 1 -->
+				<div class="carousel-item active" style="background-image: url(assets/img/tku-antrieb.jpg); height:500px;">
+					<div class="container">
+						<div class="carousel-content animated fadeInUp">
+							<img src="assets/img/images/img_4912-small_1.jpg" class="img-fluid" alt="" style="width:40%;">
+							<h2>Aluminium Profiles </h2>
+							<p>We excel in providing various standard and customised
+								aluminium extrusions with utmost quality. We have capability
+								of developing various fittings and accessorises as per customer
+								requirement. In addition to fencing profiles, we also supply extrusions
+								for workstation, conveyor frames and commercial use.</p>
+						  <!-- <div class="text-center"><a href="" class="btn-get-started">Read More</a></div> -->
+						</div>
+					</div>
+				</div>
+
+			<!-- Slide 2 -->
+			<div class="carousel-item" style="background-image: url(assets/img/model365.jpg); height:500px;">
+			  <div class="container">
+				<div class="carousel-content animated fadeInUp">
+						<img src="assets/img/images/img_4912-small_1.jpg" class="img-fluid" alt="" style="width:40%;">
+				  <h2>Aluminium Profiles</h2>
+				  <p>We excel in providing various standard and customised
+						aluminium extrusions with utmost quality. We have capability
+						of developing various fittings and accessorises as per customer
+						requirement. In addition to fencing profiles, we also supply extrusions
+						for workstation, conveyor frames and commercial use.</p>
+				   <!-- <div class="text-center"><a href="" class="btn-get-started">Read More</a></div> -->
+				</div>
+			  </div>
+			</div>
+
+			<!-- Slide 3 -->
+			<div class="carousel-item" style="background-image: url(assets/img/mode233.jpg);height:500px;">
+			  <div class="container">
+				<div class="carousel-content animated fadeInUp">
+					<img src="assets/img/images/img_4912-small_1.jpg" class="img-fluid" alt="" style="width:40%;">
+				  <h2>Aluminium Profiles </h2>
+				 <p>We excel in providing various standard and customised
+						aluminium extrusions with utmost quality. We have capability
+						of developing various fittings and accessorises as per customer
+						requirement. In addition to fencing profiles, we also supply extrusions
+						for workstation, conveyor frames and commercial use.</p>
+				   <!-- <div class="text-center"><a href="" class="btn-get-started">Read More</a></div> -->
+				</div>
+			  </div>
+			</div>
+
+		  </div>
+			<a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon bx bx-left-arrow" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon bx bx-right-arrow" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+    </div>
+  </section><!-- End Hero -->
+	
+	
+	<section id="details1" class="details">
+      <div class="container">
+		<center><h3>WORKSTATION</h3></center>
+        <div class="row content">
+          <div class="col-md-4" data-aos="fade-right">
+            <img src="assets/img/workstation/workstation3.jpg" class="img-fluid" alt="" style="width:180%">
+          </div>
+		  <div class="col-md-4" data-aos="fade-right">
+			 <img src="assets/img/workstation/workstation1.jpg" class="img-fluid" alt="" style="width:40%; margin-left:80px;">
+           </div>
+		  <div class="col-md-4" data-aos="fade-right">
+            <img src="assets/img/workstation/workstation2.jpg" class="img-fluid" alt="">
+          
+          </div>
+            <div class="row content">
+				<div class="col-md-4" data-aos="fade-right"></div>
+				<div class="col-md-8" data-aos="fade-right">
+					<div class="row content"  style="background: rgba(1, 3, 100, 0.8); color:white; padding:10px;" >
+				<p>
+				 <big>O</big>ur Workstations are designed and manufactured based largely on the principle of
+ergonomics and has a positive impact on the overall rate of production. They have
+promising manufacturing which ensures strong joints, easy reach, comfort and
+aesthetic appearance. We have customized design options for every type of requirements
+as no two tasks has the same problem. </p>
+				</div>
+				</div>
+			</div>
+		   
+        </div>
+	</div>
+	</section>
+   <!-- ======= Details Section ======= -->
+    <section id="details2" class="details2">
+		<div class="container">
+			<center><h3>Conveyor system</h3></center>
+			<div class="row content">
+				<div class="col-md-6">
+					<img src="assets/img/conveyor/Conveyor3.jpg" class="img-fluid" alt="" style="width:100%">
+				</div>
+				<div class="col-md-6">
+					<div class="row content"  style="background: rgba(1, 3, 100, 0.8); color:white; padding:10px;" >
+						<p>
+						  <big>A</big>t Pisanga we develop multi-industrial conveyor systems with
+							customisation according to the requirement of our clients. We
+							specially design the system to lower the cost of the product and give
+							maximum output. We have expertise in creating almost all types of
+							conveyors irrespective of the complexity of the system</p>
+					</div>
+					<div class="row">
+						<img src="assets/img/conveyor/Conveyor2.jpg" class="img-fluid" alt="" style="width:65%; margin-left:100px;">
+					</div>
+					<div class="row">
+						<img src="assets/img/conveyor/Conveyor1.jpg" class="img-fluid" alt="" style="width:65%; margin-left:100px;">
+					</div>
+				</div>
+			</div>
+		</div>
+    </section><!-- End Details Section -->
+<section>
+	<div id="exampleSlider">
+       <div class="MS-content">
+           <div class="item">
+               <a  href="#nav-home" onmouseover="changecolor('nav-home')" >
+					<img src="assets/img/IMG_2322.JPG" style="width:70%;">
+				</a>
+           </div>
+           <div class="item">
+               <a  href="#nav-home" onmouseover="changecolor('nav-home')" >
+					<img src="assets/img/IMG_2301.JPG" style="width:70%;">
+				</a>
+           </div>
+           <div class="item">
+               <a  href="#nav-home" onmouseover="changecolor('nav-home')" >
+					<img src="assets/img/IMG_2317.JPG" style="width:70%;">
+				</a>
+           </div>
+           <div class="item">
+              <a  href="#nav-home" onmouseover="changecolor('nav-home')" >
+					<img src="assets/img/trolley 342.jpg" style="width:70%;">
+				</a>
+           </div>
+           <div class="item">
+               <a  href="#nav-home" onmouseover="changecolor('nav-home')" >
+					<img src="assets/img/IMG_2313.JPG" style="width:70%;">
+				</a>
+           </div>
+           <div class="item">
+               <a  href="#nav-home" onmouseover="changecolor('nav-home')" >
+					<img src="assets/img/model 325.jpg" style="width:70%;">
+				</a>
+           </div>
+           <div class="item">
+               <a  href="#nav-home" onmouseover="changecolor('nav-home')" >
+					<img src="assets/img/IMG_2324.JPG" style="width:70%;">
+				</a>
+           </div>
+           <div class="item">
+               <a  href="#nav-home" onmouseover="changecolor('nav-home')" >
+					<img src="assets/img/model 458.jpg" style="width:70%;">
+				</a>
+           </div>
+       </div>
+       <div class="MS-controls">
+           <button class="MS-left"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+           <button class="MS-right"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+       </div>
+   </div>
+</section>
+	
+	
+	
+	
+	
+	
+	
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Features</h2>
+          <p>Check The Features</p>
+        </div>
+
+        <div class="row" data-aos="fade-left">
+          <div class="col-lg-3 col-md-4">
+            <div class="" data-aos="zoom-in" data-aos-delay="50">
+             <img src="assets/img/IMG_2322.JPG" class="img-fluid" alt="" >
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="" data-aos="zoom-in" data-aos-delay="100">
+              <img src="assets/img/model 325.jpg" class="img-fluid" alt="" >
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="" data-aos="zoom-in" data-aos-delay="150">
+              <img src="assets/img/trolley 342.jpg" class="img-fluid" alt="" >
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+            <div class="" data-aos="zoom-in" data-aos-delay="200">
+               <img src="assets/img/IMG_2313.JPG" class="img-fluid" alt="" >
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="" data-aos="zoom-in" data-aos-delay="250">
+               <img src="assets/img/IMG_2313.JPG" class="img-fluid" alt="" >
+              <!-- <h3><a href="">Nemo Enim</a></h3> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="" data-aos="zoom-in" data-aos-delay="300">
+              <img src="assets/img/model 325.jpg" class="img-fluid" alt="" >
+              <!-- <h3><a href="">Eiusmod Tempor</a></h3> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="" data-aos="zoom-in" data-aos-delay="350">
+              <img src="assets/img/IMG_2301.JPG" class="img-fluid" alt="" >
+              <!-- <h3><a href="">Midela Teren</a></h3> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="" data-aos="zoom-in" data-aos-delay="400">
+              <img src="assets/img/IMG_2297.JPG" class="img-fluid" alt="" >
+              <!-- <h3><a href="">Pira Neve</a></h3> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="" data-aos="zoom-in" data-aos-delay="450">
+              <img src="assets/img/ddb06ff6187b235763fd2ced0577ea9b.jpg" class="img-fluid" alt="" >
+              <!-- <h3><a href="">Dirada Pack</a></h3> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="" data-aos="zoom-in" data-aos-delay="500">
+				<img src="assets/img/IMG_2295.JPG" class="img-fluid" alt="" >
+              
+              <!-- <h3><a href="">Moton Ideal</a></h3> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="" data-aos="zoom-in" data-aos-delay="550">
+             <img src="assets/img/IMG_2317.JPG" class="img-fluid" alt="" >
+              <!-- <h3><a href="">Verdo Park</a></h3> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="" data-aos="zoom-in" data-aos-delay="600">
+				<img src="assets/img/IMG_2320.JPG" class="img-fluid" alt="" >
+              
+              <!-- <h3><a href="">Flavor Nivelanda</a></h3> -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row" data-aos="fade-up">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="icofont-simple-smile"></i>
+              <span data-toggle="counter-up">232</span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="icofont-document-folder"></i>
+              <span data-toggle="counter-up">521</span>
+              <p>Projects</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="icofont-live-support"></i>
+              <span data-toggle="counter-up">1,463</span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="icofont-users-alt-5"></i>
+              <span data-toggle="counter-up">15</span>
+              <p>Hard Workers</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+	
+	
+	<!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+		
+        <div class="section-title" data-aos="fade-up">
+          <center><h2>Some of our <strong>recent works</strong></h2>
+		  <h3> Gallery</h3></center>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Bin Holder</li>
+              <li data-filter=".filter-card">Card Holder</li>
+              <li data-filter=".filter-web">Accessories</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+
+          <div class="col-lg-3 col-md-4 portfolio-item filter-app">
+            <img src="assets/img/IMG_2299.JPG" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <a href="assets/img/IMG_2299.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+		  
+		  <div class="col-lg-3 col-md-4 portfolio-item filter-app">
+            <img src="assets/img/IMG_2300.JPG" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <a href="assets/img/IMG_2300.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+		  
+		   <div class="col-lg-3 col-md-4 portfolio-item filter-app">
+            <img src="assets/img/IMG_2301.JPG" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <a href="assets/img/IMG_2301.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+		  
+		  <div class="col-lg-3 col-md-4 portfolio-item filter-app">
+              <img src="assets/img/IMG_2302.JPG" class="img-fluid" alt="" style="width:82%;">
+            <div class="portfolio-info">
+              <h4>App 4</h4>
+              <p>App</p>
+              <a href="assets/img/IMG_2302.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+
+         
+          <div class="col-lg-3 col-md-4 portfolio-item filter-card">
+            <img src="assets/img/IMG_2322.JPG" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <a href="assets/img/IMG_2322.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+		  <div class="col-lg-3 col-md-4 portfolio-item filter-card">
+            <img src="assets/img/IMG_2304.PNG" class="img-fluid" alt="" style="width:70%;">
+            <div class="portfolio-info" style="width: 61%;">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <a href="assets/img/IMG_2304.PNG" data-gall="portfolioGallery" class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+		  
+          <div class="col-lg-3 col-md-4 portfolio-item filter-card">
+            <img src="assets/img/IMG_2305.PNG" class="img-fluid" alt="" style="width:62%;">
+            <div class="portfolio-info" style="width: 69%;">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <a href="assets/img/IMG_2305.PNG" data-gall="portfolioGallery" class="venobox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+		  <div class="col-lg-3 col-md-4 portfolio-item filter-app">
+              <img src="assets/img/ddb06ff6187b235763fd2ced0577ea9b.jpg" class="img-fluid" alt="" style="">
+            <div class="portfolio-info">
+              <h4>App 5</h4>
+              <p>App</p>
+              <a href="assets/img/ddb06ff6187b235763fd2ced0577ea9b.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+		  
+		   <div class="col-lg-2 col-md-4 portfolio-item filter-web">
+            <img src="assets/img/accessories/IMG_2327.JPG" class="img-fluid" alt="" style="width:100%;" >
+            <div class="portfolio-info" style="width: 90%;">
+              <h5>Bolt Connector</h5>
+              <a href="assets/img/accessories/IMG_2327.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-2 col-md-4 portfolio-item filter-web">
+            <img src="assets/img/accessories/IMG_2289.JPG" class="img-fluid" alt="">
+            <div class="portfolio-info" id="pf1">
+              <h5>Bracket Connector</h5>
+              <a href="assets/img/accessories/IMG_2289.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+         
+          <div class="col-lg-2 col-md-4 portfolio-item filter-web">
+            <img src="assets/img/accessories/IMG_2236.JPG"  class="img-fluid" alt="" style="width:100%;">
+            <div class="portfolio-info">
+              <h5>Plate Connector</h5>
+              <a href="assets/img/accessories/IMG_2236.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+		  
+		  
+          <div class="col-lg-2 col-md-4 portfolio-item filter-web">
+            <img src="assets/img/accessories/IMG_2232.JPG"  class="img-fluid" alt="" style="width:100%;">
+            <div class="portfolio-info">
+              <h5>Corner Brackets</h5>
+              <a href="assets/img/accessories/IMG_2232.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+		  
+		  
+          <div class="col-lg-2 col-md-4 portfolio-item filter-web">
+            <img src="assets/img/accessories/IMG_2238.JPG"  class="img-fluid" alt="" style="width:100%;">
+            <div class="portfolio-info">
+              <h5>Aluminium Angle</h5>
+              <a href="assets/img/accessories/IMG_2238.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+		  
+		  
+          <div class="col-lg-2 col-md-4 portfolio-item filter-web">
+            <img src="assets/img/accessories/IMG_2234.JPG"  class="img-fluid" alt="" style="width:100%;">
+            <div class="portfolio-info">
+              <h5>Bracing Plates</h5>
+              <a href="assets/img/accessories/IMG_2234.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+		  
+		  
+          <div class="col-lg-2 col-md-4 portfolio-item filter-web">
+            <img src="assets/img/accessories/IMG_2255.PNG"  class="img-fluid" alt="" style="width:100%;">
+            <div class="portfolio-info">
+              <h5>Tilt Brackets</h5>
+              <a href="assets/img/accessories/IMG_2255.PNG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+		  
+		  
+          <div class="col-lg-2 col-md-4 portfolio-item filter-web">
+            <img src="assets/img/accessories/IMG_2256.JPG"  class="img-fluid" alt="" style="width:100%;">
+            <div class="portfolio-info">
+              <h5>Square Washer</h5>
+              <a href="assets/img/accessories/IMG_2256.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+		  
+		   <div class="col-lg-2 col-md-4 portfolio-item filter-web">
+            <img src="assets/img/accessories/IMG_2257.JPG"  class="img-fluid" alt="" >
+            <div class="portfolio-info">
+              <h5>Nylon Hinges</h5>
+              <a href="assets/img/accessories/IMG_2257.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+		  
+		   <div class="col-lg-2 col-md-4 portfolio-item filter-web">
+            <img src="assets/img/accessories/IMG_2246.GIF"  class="img-fluid" alt="" style="width:100%;">
+            <div class="portfolio-info">
+              <h5>Foundation Brackets</h5>
+              <a href="assets/img/accessories/IMG_2246.GIF" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+		  
+		   <div class="col-lg-2 col-md-4 portfolio-item filter-web">
+            <img src="assets/img/accessories/IMG_2265.JPG"  class="img-fluid" alt="" style="width:100%;">
+            <div class="portfolio-info">
+              <h5>Castors Wheels</h5>
+              <a href="assets/img/accessories/IMG_2265.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+		  
+		   <div class="col-lg-2 col-md-4 portfolio-item filter-web">
+            <img src="assets/img/accessories/IMG_2260.JPG"  class="img-fluid" alt="" style="width:100%;">
+            <div class="portfolio-info">
+              <h5>Leveling Pad</h5>
+              <a href="assets/img/accessories/IMG_2260.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+		  
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+   
+
+  
+    <!-- ======= Testimonials Section ======= -->
+	<center><h3>Reviews </h3></center>
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+		
+        <div class="owl-carousel testimonials-carousel" data-aos="zoom-in">
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+            <h3>Saul Goodman</h3>
+            <h4>Ceo &amp; Founder</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+            <h3>Sara Wilsson</h3>
+            <h4>Designer</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+            <h3>Jena Karlis</h3>
+            <h4>Store Owner</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+            <h3>Matt Brandon</h3>
+            <h4>Freelancer</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+		
+        <div class="section-title" data-aos="fade-up">
+          <center><h2>Team</h2>
+          <p>Our Great Team</p></center>
+        </div>
+
+        <div class="row" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="member" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="member" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="member" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+	<!-- Client Section -->
+<center><h3>Our Clients</h3></center>
+     <section id="testimonials1" class="testimonials1">
+		<div class="container">
+			
+			<div class="row">
+				<div class="col-md-2">
+					
+				</div>
+				<div class="col-md-4">
+					<img src="assets/img/download (1).jpg" class="img-fluid" alt="">
+				</div>
+				<div class="col-md-4">
+					<img src="assets/img/download.png" class="img-fluid" alt="">
+				</div>
+				<div class="col-md-4">
+			
+				</div>
+			</div>
+		</div>
+    </section><!-- End Client Section -->
+
+   
+    
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>Sr no 120/1 2/1, Near Mane School, Rajwade Nagar Colony no 3 Kalewadi Pune 411017</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@Pisanga.com | sales@pisanga.com </p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+91- 8605266036 | +91- 8484046948 <br> +91- 8177828115 </p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-5">
+            <div class="footer-info">
+              <h3 style="color:white;">PISANGA</h3>
+              <p class="pb-3"><em>At Pisanga we aspire to develop products of aluminium extrusions that have the strength and beauty as their essential attributes.</em></p>
+              <!-- <p> -->
+                <!-- A108 Adam Street <br> -->
+                <!-- NY 535022, USA<br><br> -->
+                <!-- <strong>Phone:</strong> +1 5589 55488 55<br> -->
+                <!-- <strong>Email:</strong> info@example.com<br> -->
+              <!-- </p> -->
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-7 col-md-7 footer-links">
+            <h4>Our Services</h4>
+				<center><i class="fa fa-map-marker" style="font-size:25px;"></i></center>
+				<center>Sr no 120/1 2/1, Near Mane School, Rajwade Nagar Colony no 3 Kalewadi Pune 411017</center><br>
+				
+				<center><i class="fa fa-map-marker" style="font-size:25px;"></i></center>
+				<center> Sr 64, Kalbhor Estate Opp ADOR WELDEING, Chinchwad Pune 411019</center><br>
+				
+				<center><i class="fa fa-phone" style="font-size:25px;"></i></center>
+				<center> +91- 8605266036 | +91- 8484046948 | +91- 8177828115 </center><br>
+				
+				
+				<center><i class="fa fa-envelope" style="font-size:25px;"></i></center>
+				<center><a href="#">info@pisanga.com&nbsp;</a>|<a href="http:/sales@pisanga.com">&nbsp; sales@pisanga.com</a></center><br>
+				
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 footer-newsletter"> -->
+            <!-- <h4>Our Newsletter</h4> -->
+            <!-- <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p> -->
+            <!-- <form action="" method="post"> -->
+              <!-- <input type="email" name="email"><input type="submit" value="Subscribe"> -->
+            <!-- </form> -->
+
+          <!-- </div> -->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>PISANGA</span></span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/ -->
+        Designed by <a href="http://megamindsystech.com/">Megamind Pvt. Lim.</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <div id="preloader"></div>
+
+    <!-- Include jQuery -->
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+
+    <!-- Include Multislider -->
+    <script src="assets/js/multislider.min.js"></script>
+
+    <!-- Initialize element with Multislider -->
+    <script>
+    $('#exampleSlider').multislider({
+        interval: 4000,
+       continuous: false,
+        duration: 1500
+    });
+    </script>
+  
+  
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/TweenMax/TweenMax.min.js"></script>
+  <script src="assets/vendor/wavify/wavify.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+ <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+ 
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+<script src="assets/js/main1.js"></script>
+</body>
+
+</html>
